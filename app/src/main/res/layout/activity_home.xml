@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:background="@color/btnStartColor"
+        android:id="@+id/contact"
+        android:text="Contact"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@color/btnCenterColor"
+        android:id="@+id/favourites"
+        android:text="Favourites"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@color/btnEndColor"
+        android:id="@+id/deleted"
+        android:text="Deleted"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
